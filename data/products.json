@@ -1,0 +1,236 @@
+{
+  "products": [
+    {
+      "sku": "ABC123",
+      "product_name": "Wireless Router",
+      "image_url": "https://picsum.photos/200/200",
+      "category": "electronics",
+      "similar_products": ["DEF456", "GHI789", "JKL012"],
+      "available": true
+    },
+    {
+      "sku": "DEF456",
+      "product_name": "Ethernet Switch",
+      "image_url": "https://picsum.photos/200/200",
+      "category": "electronics",
+      "similar_products": ["MNO345", "PQR678", "STU901"],
+      "available": false
+    },
+    {
+      "sku": "GHI789",
+      "product_name": "T-Shirt",
+      "image_url": "https://picsum.photos/200/200",
+      "category": "clothing",
+      "similar_products": ["ABC123", "DEF456", "JKL012"],
+      "available": true
+    },
+    {
+      "sku": "PQR7893",
+      "product_name": "Iphone 13 pro max",
+      "image_url": "https://picsum.photos/200/200",
+      "category": "electronics",
+      "similar_products": ["GHI890", "JKL123", "MNO456", "PQR7892"],
+      "available": true
+    },
+    {
+      "sku": "JKL012",
+      "product_name": "Smart Home Hub",
+      "image_url": "https://picsum.photos/200/200",
+      "category": "home",
+      "similar_products": ["DEF456", "GHI789", "STU901"],
+      "available": true
+    },
+    {
+      "sku": "MNO345",
+      "product_name": "Wireless Access Point",
+      "image_url": "https://picsum.photos/200/200",
+      "category": "electronics",
+      "similar_products": ["DEF456", "PQR678", "STU901"],
+      "available": true
+    },
+    {
+      "sku": "PQR7894",
+      "product_name": "Iphone 14 pro max",
+      "image_url": "https://picsum.photos/200/200",
+      "category": "electronics",
+      "similar_products": ["GHI890", "JKL123", "MNO456", "PQR7893", "PQR7893"],
+      "available": true
+    },
+    {
+      "sku": "PQR678",
+      "product_name": "Men's Jeans",
+      "image_url": "https://picsum.photos/200/200",
+      "category": "clothing",
+      "similar_products": ["DEF456", "MNO345", "STU901"],
+      "available": true
+    },
+    {
+      "sku": "STU901",
+      "product_name": "Smart Security Camera",
+      "image_url": "https://picsum.photos/200/200",
+      "category": "home",
+      "similar_products": ["DEF456", "MNO345", "PQR678"],
+      "available": false
+    },
+    {
+      "sku": "VWX234",
+      "product_name": "Wireless Mouse",
+      "image_url": "https://picsum.photos/200/200",
+      "category": "electronics",
+      "similar_products": ["YZA567", "BCD890", "EFG123"],
+      "available": true
+    },
+    {
+      "sku": "PQR7895",
+      "product_name": "Iphone 14 plus",
+      "image_url": "https://picsum.photos/200/200",
+      "category": "electronics",
+      "similar_products": ["GHI890", "JKL123", "MNO456", "PQR7893", "PQR7893", "PQR7894"],
+      "available": true
+    },
+    {
+      "sku": "YZA567",
+      "product_name": "Women's Dress",
+      "image_url": "https://picsum.photos/200/200",
+      "category": "clothing",
+      "similar_products": ["VWX234", "BCD890", "EFG123"],
+      "available": false
+    },
+    {
+      "sku": "BCD890",
+      "product_name": "Smart Thermostat",
+      "image_url": "https://picsum.photos/200/200",
+      "category": "home",
+      "similar_products": ["VWX234", "YZA567", "EFG123"],
+      "available": true
+    },
+    {
+      "sku": "EFG123",
+      "product_name": "Wireless Keyboard",
+      "image_url": "https://picsum.photos/200/200",
+      "category": "electronics",
+      "similar_products": ["VWX234", "YZA567", "BCD890"],
+      "available": true
+    },
+    {
+      "sku": "HIJ456",
+      "product_name": "Men's Polo Shirt",
+      "image_url": "https://picsum.photos/200/200",
+      "category": "clothing",
+      "similar_products": ["KLM789", "NOP012", "QRS345"],
+      "available": true
+    },
+    {
+      "sku": "KLM789",
+      "product_name": "Smart Lighting System",
+      "image_url": "https://picsum.photos/200/200",
+      "category": "home",
+      "similar_products": ["HIJ456", "NOP012", "QRS345"],
+      "available": false
+    },
+    {
+      "sku": "NOP012",
+      "product_name": "Wireless Earphones",
+      "image_url": "https://picsum.photos/200/200",
+      "category": "electronics",
+      "similar_products": ["HIJ456", "KLM789", "QRS345"],
+      "available": true
+    },
+    {
+      "sku": "QRS345",
+      "product_name": "Women's Sweater",
+      "image_url": "https://picsum.photos/200/200",
+      "category": "clothing",
+      "similar_products": ["HIJ456", "KLM789", "NOP012"],
+      "available": true
+    },
+    {
+      "sku": "TUV678",
+      "product_name": "Wireless Printer",
+      "image_url": "https://picsum.photos/200/200",
+      "category": "home",
+      "similar_products": ["XYZ901", "ABC234", "DEF567"],
+      "available": true
+    },
+    {
+      "sku": "XYZ901",
+      "product_name": "Gaming Mousepad",
+      "image_url": "https://picsum.photos/200/200",
+      "category": "electronics",
+      "similar_products": ["TUV678", "ABC234", "DEF567"],
+      "available": true
+    },
+    {
+      "sku": "ABC234",
+      "product_name": "Women's Handbag",
+      "image_url": "https://picsum.photos/200/200",
+      "category": "clothing",
+      "similar_products": ["TUV678", "XYZ901", "DEF567"],
+      "available": false
+    },
+    {
+      "sku": "DEF567",
+      "product_name": "Wireless Headphones",
+      "image_url": "https://picsum.photos/200/200",
+      "category": "home",
+      "similar_products": ["TUV678", "XYZ901", "ABC234"],
+      "available": true
+    },
+    {
+      "sku": "GHI890",
+      "product_name": "Smart TV",
+      "image_url": "https://picsum.photos/200/200",
+      "category": "electronics",
+      "similar_products": ["JKL123", "MNO456", "PQR789"],
+      "available": true
+    },
+    {
+      "sku": "JKL123",
+      "product_name": "Men's Watch",
+      "image_url": "https://picsum.photos/200/200",
+      "category": "clothing",
+      "similar_products": ["GHI890", "MNO456", "PQR789"],
+      "available": true
+    },
+    {
+      "sku": "MNO456",
+      "product_name": "Wireless Speaker",
+      "image_url": "https://picsum.photos/200/200",
+      "category": "home",
+      "similar_products": ["GHI890", "JKL123", "PQR789"],
+      "available": true
+    },
+    {
+      "sku": "PQR789",
+      "product_name": "Smartphone",
+      "image_url": "https://picsum.photos/200/200",
+      "category": "electronics",
+      "similar_products": ["GHI890", "JKL123", "MNO456"],
+      "available": false
+    },
+    {
+      "sku": "YZA6667",
+      "product_name": "Women's Red Dress",
+      "image_url": "https://picsum.photos/200/200",
+      "category": "clothing",
+      "similar_products": ["VWX234", "BCD890", "EFG123", "YZA567"],
+      "available": false
+    },
+    {
+      "sku": "PQR7891",
+      "product_name": "Iphone 7",
+      "image_url": "https://picsum.photos/200/200",
+      "category": "electronics",
+      "similar_products": ["GHI890", "JKL123", "MNO456", "PQR7892"],
+      "available": true
+    },
+    {
+      "sku": "PQR7892",
+      "product_name": "Iphone 14 pro",
+      "image_url": "https://picsum.photos/200/200",
+      "category": "electronics",
+      "similar_products": ["GHI890", "JKL123", "MNO456", "PQR7891"],
+      "available": true
+    }
+  ]
+}

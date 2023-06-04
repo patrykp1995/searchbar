@@ -1,0 +1,29 @@
+{
+  "name": "rekrut1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run app",
+    "setup": "npm install && npm run install-client",
+    "server": "INFO_PARAM=server concurrently \"node ./logs/index.js\" \"nodemon server.js\"",
+    "dev": "concurrently \"npm run server\" \"npm run app\"",
+    "app": "INFO_PARAM=app concurrently \"node ./logs/index.js\" \"cd app && npm start\"",
+    "install-client": "cd app && echo \"Installing client dependencies...\" && npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "chokidar": "^3.5.3",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "react-redux": "^8.0.7"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1",
+    "nodemon": "^2.0.22"
+  }
+}
